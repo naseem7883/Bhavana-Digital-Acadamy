@@ -1,0 +1,119 @@
+
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="blog.css"> -->
+  
+    <!-- for socail media library -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--end socail media library -->
+    <link href="https://fonts.googleapis.com/css?family=karla" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<!-- toggle menu script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+<!-- end toggle menu -->
+</head>
+<body>
+   <div class="blog-color" >
+    <h1 style="margin: 0; padding-top: 12px;padding-bottom: 6px;">WEB DESIGNING</h1>
+    <p>
+     Web design refers to the design of websites that are displayed on the internet.
+     It usually refers to the user experience aspects of website development rather 
+     than software development.Web design used to be focused on designing websites
+      for desktop browsers; however, since the mid-2010s, design for mobile and
+       tablet browsers has become ever-increasingly important. </p>
+      <img src="blog1.jpg " alt="" width="70%" height="100%" style="padding-left:15%">
+      
+     <p> Two of the most common methods for designing websites that work well both on 
+        desktop and mobile are responsive and adaptive design. In responsive design, 
+        content moves dynamically depending on screen size; in adaptive design,
+         the website content is fixed in layout sizes that match common screen sizes.
+          Preserving a layout that is as consistent as possible between devices is
+           crucial to maintaining user trust and engagement. As responsive design 
+           can present difficulties in this regard, designers must be careful in
+            relinquishing control of how their work will appear. If they are
+             responsible for the content as well, while they may need to broaden
+              their skillset, they will enjoy having the advantage of full control
+               of the finished product.
+     </p>
+
+      <img src="blog3.png" alt=""width="70%" height="100%" style="padding-left:15%">
+     <p>
+     A well-designed website can help you form a good impression on your prospective
+      customers. It can also help you nurture your leads and get more conversions.
+       But, more importantly, it provides good user experience and helps your website 
+       visitors access and navigate your website with ease.When a user lands on a site,
+        good design can make them feel something. If the site looks modern, offers 
+        bright colors, and is well organized – it's welcoming in visitors and encouraging 
+        them to stick around for a whileYour website is one of the most important 
+        aspects of your brand’s online presence and it's important that you 
+        design it right. Your website is also the place where you nurture
+         your bottom-of-the-funnel leads to get conversions. So, you can’t afford 
+         any website fails that might cause your prospects to bounce off your website.
+    </p>
+ <img src="blog2.webp" alt=""width="70%" height="100%" style="padding-left:15%">
+   <p>
+        Our web design course content is created and updated by experienced web designers to
+        match the present standards of web technologies. In our website program, we teach
+        all the aspects of layout designing. Our commitment is to make you a professional
+        web designer. By the end of this project, you will create a full web-site that 
+        is attractive and user friendly using a free content management system, WordPress.
+        You will learn how to create a website utilizing themes and plug-ins using the web
+        creation tool. You’ll have a virtual space to showcase your business with customers
+        who want to stay connected.
+    </p> 
+    
+</div>
+ 
+  
+  
+  
+  
+    
+       <!-- js closing and opening of menu(toggle) -->
+  <script>
+  
+    let navLinks = document.getElementById("navLinks");
+    let slider_hide = document.getElementById("sliderHide");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-260px";
+    }
+    function hideAds(){
+        slider_hide.style.display="none";
+    }
+    // <------ads sliding js------>
+    function first(){
+              document.getElementById("slide-img").src="ads2.jpeg";
+              document.getElementById("slide-link").href="https://mailchi.mp/d17bd749bd9d/yoshita";
+          }
+          function second(){
+              document.getElementById("slide-img").src="ads4.jpeg";
+              document.getElementById("slide-link").href="https://mailchi.mp/d17bd749bd9d/yoshita";
+          }
+          function third(){
+              document.getElementById("slide-img").src="ads3.jpeg";
+              document.getElementById("slide-link").href="https://mailchi.mp/d17bd749bd9d/yoshita";
+          }
+          function fourth(){
+              document.getElementById("slide-img").src="ads1.jpeg";
+              document.getElementById("slide-link").href="https://mailchi.mp/d17bd749bd9d/yoshita";
+          }
+          setInterval(first,3000);
+          setInterval(second,6000);
+          setInterval(third,9000);
+          setInterval(fourth,12000);
+           // <------ ends ads sliding js------>
+  </script>
+</body>
+</html>
